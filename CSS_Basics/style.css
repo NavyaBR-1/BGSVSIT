@@ -126,8 +126,8 @@ p{
     border:1px solid black;
     position: relative;
     background-image: url('images/1.jpg');
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 .position-box h1{
     position:absolute;
@@ -136,10 +136,25 @@ p{
 }
 .position-box h2{
     position:absolute;
-    top:40px;
-    left: 200px;
+    bottom:40px;
+    right: 200px;
 }
 .fixed-button{
     position:fixed;
     top:20px;
+}
+.my-list li:first-child{
+    background: rebeccapurple;
+}
+.my-list li:last-child{
+    background:blue;
+}
+.my-list li:nth-child(4){
+    background:yellowgreen;
+}
+.dynamic-list li:nth-child(even){
+    background:brown;
+}
+.dynamic-list li:nth-child(odd){
+    background:yellow;
 }
