@@ -110,7 +110,7 @@ footer{
     background:#e6e6e6; 
     min-height: 150px;
 }  
-#services{
+/* #services{
     min-height: 150px;
 }
 .quote input {
@@ -131,4 +131,26 @@ footer{
     padding-right: 20px;
     align-content: center;
     text-align: center;
+} */
+
+@media(max-width:768px){
+    header .branding,
+    header nav,
+    #boxes .box,
+    #sidebar,
+    #main-col{
+        float:none;
+        text-align: center;
+        width:100%;
+    }
+    #showcase h1{
+        font-size: 25px;
+    }
+    #sidebar{
+        margin-bottom: 120px;
+    }
+    #boxes .box:nth-child(3){
+        margin-bottom: 80px;
+    }
+
 }
